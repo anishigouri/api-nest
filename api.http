@@ -19,4 +19,7 @@ Content-Type: application/json
 ### Coisas do mapa
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=rua egidio adrian, sao paulo, 110
+GET http://localhost:3000/places?text=rua pernambuco, ilhabela
+
+###Pegar direções entre 2 pontos
+GET http://localhost:3000/directions?originId=ChIJi0QiuvpgzpQR-xm7Buz3kBs&destinationId=Ej1SLiBQZXJuYW1idWNvIC0gQmFycmEgVmVsaGEsIElsaGFiZWxhIC0gU1AsIDExNjMwLTAwMCwgQnJhc2lsIi4qLAoUChIJ8-BKBauQ0pQRQWdDQl_rmOcSFAoSCVGJteGhmdKUESKjSz-usRzb
